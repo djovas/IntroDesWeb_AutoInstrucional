@@ -1,0 +1,32 @@
+.backgroundPlains {
+  background-color: #fff;
+  background-image: url("./imagens/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 130% 100%;
+  background-position: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 40px;
+}
+.page .menu-wrapper {
+  display: flex;
+  justify-content: center;
+  background-image: url("./imagens/fundo_menu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 2%;
+}
+.page .content-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  /* border: 5px solid red; */
+}
+.page .footer-wrapper {
+  display: flex;
+}
